@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.quiz{
+    background-color: rgba(59, 59, 183, 0.347);
+    padding: 30px;
+    
+}
+.heading{
+    margin: 10px auto 20px auto;
+}
+.heading .title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+  ;
+}
+.heading .sub-heading{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+.result{
+    text-align: center;
+    min-width: 300px;
+    border-radius: 5px;
+    background-color: rgba(20, 109, 205, 0.326);
+    max-width: 350px;
+    margin: 10px auto;
+    font-size: 16px;
+    box-shadow: #111213 2px 3px 6px;
+    
+
+}
+.result p:first-child{
+ padding: 10px 20px;
+}
+.result .reload button{
+    width: 100%;
+    background-color: #4b7496;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px 20px;
+}
+.hide{
+    display: none;
+}
+.reload button:hover{
+    background-color:#294164;
+    color: #D4D4D4;
+    cursor: pointer;
+}
+
+form{
+    width: 70%;
+    margin: auto;
+}
+.question{
+    background-color: #F4F4F4;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.question > *{
+    font-size: 18px;
+}
+.question p{
+    margin-bottom: 5px;
+}
+.correct{
+    background-color: #9ACF9D;
+}
+.wrong{
+    background-color: #EBB5B4;
+}
+.submit{
+    text-align: center;
+}
+.submit input{
+    padding: 10px 30px;
+    margin: auto;
+    background-color: #88AA8A;
+    border-radius: 5px 10px 20px 20px;
+    font-size: 16px;
+    box-shadow: #3F5140 4px 3px 6px;
+    border: 0px;
+}
+.submit input:hover{
+    background-color: #273228;
+    color:#E5E5E5 ;
+    cursor: pointer;
+}

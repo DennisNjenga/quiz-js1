@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">notNotion</p>
+                <p class="sub-heading">Your javascript quiz to test your undustanding</p>
+            </div>
+            <div class="result hide">
+                <p></p>
+                <p class="reload">
+                    <button onclick="document.location.reload()">Try again</button>
+                </p>
+            </div>
+
+            <form action="" class="quiz-form">
+                <div class="question">
+                    <p>Q 1 - Which of the following is true about typeof operator in JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="q1">The typeof is a unary operator that is placed before its single operand, which can be of any type.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B">
+                        <label for="q1">Its value is a string indicating the data type of the operand.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C">
+                        <label for="q1">Both of the above.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D">
+                        <label for="q1">one of the above</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>Q 2 - Which of the following type of variable is visible everywhere in your JavaScript code?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label for="q1">global variable</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B">
+                        <label for="q1">local variable</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C">
+                        <label for="q1">Both of the above</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D">
+                        <label for="q1">None of the above</label>
+                    </div>
+                </div><div class="question">
+                    <p>Q 3 - Which built-in method returns the length of the string?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label for="q1">length()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B">
+                        <label for="q1">size()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C">
+                        <label for="q1">index()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="D">
+                        <label for="q1">None of the above</label>
+                    </div>
+                </div><div class="question">
+                    <p>Q 4 - Which built-in method returns the characters in a string beginning at the specified location?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label for="q1">substr()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B">
+                        <label for="q1">getSubstring()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C">
+                        <label for="q1">slice()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D">
+                        <label for="q1">None of the above.</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>Q 5 - Which of the following function of Number object returns the number's value?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label for="q5">toString()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B">
+                        <label for="q5">valueOf()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C">
+                        <label for="q5">toLocaleString()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D">
+                        <label for="q5">toPrecision()</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="quiz.js"></script>
+</body>
+</html>
